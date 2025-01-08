@@ -9,7 +9,6 @@
     <h1>NO HOMO?</h1>
     <a href="index.html"><img src="images/megamind.jpg" alt="codding-helper" width="1300" height="500" title="Mind"/></a>
     <h1><a href="https://www.youtube.com/watch?v=TVVVMMwRvR4" target="_blank"><u>что-то важное</u></a></h1>
-
     <h2>Видос</h2>
     <video controls width="640" height="360">
         <source src="borat-dance.mp3" type="video/borat-dance.mp3">
@@ -32,5 +31,46 @@
             </tr>
     </table>
     </div>
+    <h1>Регистрация</h1>
+    <form name="signup" action="#" method="post">
+        <div>
+            <label>Введите логин:</label>
+            <input type="text" name="username" placeholder="до 12 символов"/>
+        </div>
+        <div>
+            <label>Введите E-mail:</label>
+            <input type="email" name="email"/>
+        </div>
+        <div>
+            <label>Введите пароль:</label>
+            <input type="password" name="password"/>
+        </div>
+        <div>
+            <label>Укажите пол:</label>
+            <input type="radio" name="sex" value="0"/>мужской
+            <input type="radio" name="sex" value="1"/>женский
+            <input type="radio" name="sex" value="2"/>ламинат
+        </div>
+        <div>
+            <label>Загрузите фото:</label>
+            <input type="file" name="avatar"/>
+        </div>
+        <div>
+            <label>Я ознакомлен с правилами:</label>
+            <input type="checkbox" name="rules"/>
+        </div>
+        <div>
+            <label>Год рождения:</label>
+            <select name="year">
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+            </select>
+        </div>
+        <div>
+            <textarea placeholder="Введите текст сообщения..."></textarea>
+        </div>
+        <input type="submit" name="signup" value="Зарегистрироватся"/>
+    </form>
 </body>
 </html>
