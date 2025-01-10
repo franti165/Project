@@ -1,0 +1,17 @@
+h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+P{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
